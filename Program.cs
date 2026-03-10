@@ -8,9 +8,9 @@
 
 public class Database
 {
-    IList<Student> students;
-    IList<Course> courses;
-    IList<Trainer> trainers;
+    public IList<Student> students;
+    public IList<Course> courses;
+    public IList<Trainer> trainers;
 
     public Database()
     {
@@ -55,7 +55,7 @@ public class StudentRepository
 
     public void Add(Student student)
     {
-        
+       db.students.Add(student);   
     }
 
     public void Remove(Student student)
@@ -78,7 +78,7 @@ public class TrainerRepository
     }
     public void Add(Trainer student)
     {
-        
+        db.trainers.Add(student);
     }
 
     public void Remove(Trainer student)
@@ -102,7 +102,7 @@ public class CourseRepository
     }
     public void Add(Course course)
     {
-        
+        db.courses.Add(course);
     }
 
     public void Remove(Course course)
