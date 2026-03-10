@@ -6,6 +6,22 @@
 
 // Database
 
+// onion architecture 4 layer
+
+// model and interface core layer
+
+// repository
+
+// data layer, Infrastecture layer
+
+
+// services
+// services layer bussiness logic layer
+
+// controller
+
+// presentation Layer
+
 public class Database
 {
     public IList<Student> students;
@@ -54,6 +70,8 @@ public interface IStudentRepository
 
     public Student update(Student student);
 
+    public IList<Student>GetStudents();
+
 }
 
 
@@ -85,6 +103,8 @@ public interface IStudentServices
     public void Add(Student student);
 
     public void Remove(Student student);
+
+    public IList<Student>GetStudents();
 
 
 }
@@ -134,6 +154,10 @@ public class StudentRepository : IStudentRepository
     public Student update(Student student)
     {
         return student;
+    }
+    public IList<Student> GetStudents()
+    {
+        return db.students;
     }
 }
 
@@ -205,6 +229,11 @@ public class StudentServices : IStudentServices
     {
         studentRepository.Remove(student);
     }
+
+    public IList<Student> GetStudents()
+    {
+        return studentRepository.GetStudents();
+    }
 }
 
 
@@ -269,6 +298,10 @@ public class StudentController
     public void Remove(Student student)
     {
          studentServices.Remove(student);
+    }
+    public IList<Student> GetStudents()
+    {
+         return studentServices.GetStudents();
     }
 }
 
@@ -338,7 +371,7 @@ class Program
 
        studentController.Add(students);
 
-       IList<Student> dbstudents = db.students;
+       IList<Student> dbstudents = studentController.GetStudents();
 
        foreach(var x in dbstudents)
         {
