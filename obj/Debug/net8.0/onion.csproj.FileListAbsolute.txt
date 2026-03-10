@@ -1,0 +1,15 @@
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/bin/Debug/net8.0/onion
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/bin/Debug/net8.0/onion.deps.json
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/bin/Debug/net8.0/onion.runtimeconfig.json
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/bin/Debug/net8.0/onion.dll
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/bin/Debug/net8.0/onion.pdb
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.GeneratedMSBuildEditorConfig.editorconfig
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.AssemblyInfoInputs.cache
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.AssemblyInfo.cs
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.csproj.CoreCompileInputs.cache
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.sourcelink.json
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.dll
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/refint/onion.dll
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.pdb
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/onion.genruntimeconfig.cache
+/media/nafis-ahamed/OS/CPS/onion_architecture/onion/obj/Debug/net8.0/ref/onion.dll
